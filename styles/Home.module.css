@@ -33,3 +33,28 @@
     margin: auto;
     display: inline-block;
 }
+
+.link {
+    color: black;
+    text-decoration: none;
+    text-align: center;
+}
+
+.text {
+    text-align: center;
+}
+
+.about {
+    padding: 15px;
+    text-align: center;
+}
+
+.footer {
+    padding: 10px;
+    background-color: rgb(27, 49, 83);
+}
+
+.footerp {
+    color: white;
+    text-align: center;
+}

@@ -17,6 +17,11 @@ export default function Home() {
         <ul className={styles.ul}>
           <li className={styles.li}>
             <Link href="/">
+              <a className={styles.a}>Ukraine Blog</a>
+            </Link>
+          </li>
+          <li className={styles.li}>
+            <Link href="/">
               <a className={styles.a}>Home</a>
             </Link>
           </li>
@@ -35,6 +40,11 @@ export default function Home() {
         <h1 className={styles.h1}>
           Ukraine is a country known for its beautiful and diverse landscape, well-preserved culture and tradition, beautiful women and a terrible nuclear disaster. Actually, Ukraine is the largest country in Europe, not including Russia.
         </h1>
+      </div>
+      <div className={styles.footer}>
+        <p className={styles.footerp}>
+          &copy; Copyright Ukraine Blog. Developed By Joey Cadieux
+        </p>
       </div>
     </div>
   )

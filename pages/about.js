@@ -15,16 +15,29 @@ export default function about() {
                 <ul className={styles.ul}>
                     <li className={styles.li}>
                         <Link href="/">
-                            <a className={styles.a}>Home</a>
+                            <a className={styles.a}>Ukraine Blog</a>
                         </Link>
                     </li>
                     <li className={styles.li}>
                         <Link href="/">
+                            <a className={styles.a}>Home</a>
+                        </Link>
+                    </li>
+                    <li className={styles.li}>
+                        <Link href="/about">
                             <a className={styles.a}>About</a>
                         </Link>
                     </li>
                 </ul>
             </nav>
+            <div className={styles.about}>
+                <Link href="https://github.com/drjoeycadieux">
+                    <a className={styles.link}>Developed By Joey Cadieux</a>
+                </Link>
+                <h1 className={styles.text}>
+                    Programmer, Security Researcher, Software Developer & Consultant
+                </h1>
+            </div>
         </div>
     )
 }
