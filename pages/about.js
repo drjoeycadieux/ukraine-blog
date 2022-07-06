@@ -31,7 +31,7 @@ export default function about() {
                 </ul>
             </nav>
             <div className={styles.about}>
-                <Link href="https://github.com/drjoeycadieux">
+                <Link href="https://github.com/drjoeycadieux/ukraine-blog">
                     <a className={styles.link}>Developed By Joey Cadieux</a>
                 </Link>
                 <h1 className={styles.text}>
