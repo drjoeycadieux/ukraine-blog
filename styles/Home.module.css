@@ -58,3 +58,22 @@
     color: white;
     text-align: center;
 }
+
+
+.heading {
+    background-color: rgb(148, 162, 20);
+    padding: 15px;
+}
+
+.ptext {
+    text-align: center;
+    color: black;
+    font-weight: 600;
+    font-family: sans-serif;
+}
+
+.title {
+    color: white;
+    font-size: 25px;
+    text-decoration: none;
+}

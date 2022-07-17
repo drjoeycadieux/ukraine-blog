@@ -15,7 +15,7 @@ export default function about() {
                 <ul className={styles.ul}>
                     <li className={styles.li}>
                         <Link href="/">
-                            <a className={styles.a}>Ukraine Blog</a>
+                            <a className={styles.title}>Ukraine Blog</a>
                         </Link>
                     </li>
                     <li className={styles.li}>
