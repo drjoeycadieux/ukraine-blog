@@ -32,12 +32,13 @@ export default function about() {
             </nav>
             <div className={styles.about}>
                 <Link href="https://github.com/drjoeycadieux/ukraine-blog">
-                    <a className={styles.link}>Developed By Joey Cadieux</a>
+                    <a className={styles.link}>UKRAINE</a>
                 </Link>
                 <h1 className={styles.text}>
-                    Programmer, Security Researcher, Software Developer & Consultant
+                    The country of ultimate freedom.
+                    Where all the most interesting things are happening right <span style={{ color: 'yellow' }}>NOW!</span>
                 </h1>
             </div>
-        </div>
+        </div >
     )
 }
